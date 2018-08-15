@@ -24,4 +24,8 @@ class CameraViewController: UIViewController {
         dismiss(animated: true, completion: nil)
         AppDelegate.shared.router.route(to: .main, from: self)
     }
+    @IBAction func logout(_ sender: Any) {
+//        dismiss(animated: true, completion: nil)
+        AppDelegate.shared.router.route(to: .login, from: self)
+    }
 }

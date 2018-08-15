@@ -51,6 +51,10 @@ class RootViewController: UIViewController {
     
     // MARK: アプリで行う具体的な遷移
     func showLoginScreen() {
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            appDelegate.window?.rootViewController?.dismiss(animated: false, completion: nil)
+        }
+
         let new = LoginViewController.instantiate()
         addChildViewController(new)
         new.view.frame = view.bounds

@@ -14,4 +14,13 @@ class SettingViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.gray
     }
+    static func instantiate() -> SettingViewController {
+        guard let setting = UIStoryboard(name: "Setting", bundle: nil).instantiateInitialViewController() as? SettingViewController else {
+            fatalError("not set top camera screen")
+        }
+        return setting
+    }
+    @IBAction func siginout(_ sender: UIButton) {
+        AppDelegate.shared.router.route(to: .login, from: self)
+    }
 }

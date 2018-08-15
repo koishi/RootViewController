@@ -23,7 +23,8 @@ class TabViewController: UITabBarController, UITabBarControllerDelegate {
         let empty = EmptyViewControlelr()
         empty.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 2)
         
-        let setting = SettingViewController()
+//        let setting = SettingViewController()
+        let setting = SettingViewController.instantiate()
         setting.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 3)
         
         setViewControllers([main, empty, setting], animated: true)

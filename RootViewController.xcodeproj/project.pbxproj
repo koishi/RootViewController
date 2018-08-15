@@ -24,6 +24,7 @@
 		30E768862070C4C900AB9333 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E768852070C4C900AB9333 /* Login.storyboard */; };
 		30E768882070D49600AB9333 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E768872070D49600AB9333 /* Camera.storyboard */; };
 		30E7688A20711AF500AB9333 /* DeepLinkShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7688920711AF500AB9333 /* DeepLinkShortcut.swift */; };
+		FA7C96762124107300D15B45 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C96752124107300D15B45 /* Setting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		30E768852070C4C900AB9333 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		30E768872070D49600AB9333 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		30E7688920711AF500AB9333 /* DeepLinkShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkShortcut.swift; sourceTree = "<group>"; };
+		FA7C96752124107300D15B45 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				30E7687C2070BD1100AB9333 /* CameraViewController.swift */,
 				30E768852070C4C900AB9333 /* Login.storyboard */,
 				30E768872070D49600AB9333 /* Camera.storyboard */,
+				FA7C96752124107300D15B45 /* Setting.storyboard */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				30E768502070BA4C00AB9333 /* Assets.xcassets in Resources */,
 				30E7684E2070BA4C00AB9333 /* Main.storyboard in Resources */,
 				30E768882070D49600AB9333 /* Camera.storyboard in Resources */,
+				FA7C96762124107300D15B45 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
